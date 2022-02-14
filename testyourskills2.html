@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Jose's Flexbox: Task 2</title>
+
+    <style>
+      h1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+
+      body {
+        background-color: lightpink;
+        color: #333;
+        font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+        padding: 1em;
+        margin: 0;
+      }
+
+      ul {
+        max-width: 700px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 200px;
+      }
+
+      li {
+        background-color: navy;
+        border: 2px solid darkgrey;
+        border-radius: 0.5em;
+        color: #fff;
+        padding: 0.5em;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 200px;
+      }
+
+      /* Add your flexbox CSS below here */
+    </style>
+  </head>
+
+  <body>
+    <h1>Jose's Page</h1>
+    <ul>
+      <li>
+        This is a box that doesnt have many words but text box is still same
+        size as the other boxes
+      </li>
+      <li>I have more content than the very small item.</li>
+      <li>
+        I have lots of content. So much content that I don't know where it is
+        all going to go. I'm glad that CSS is pretty good at dealing with
+        situations where we end up with more words than expected!
+      </li>
+    </ul>
+  </body>
+</html>
